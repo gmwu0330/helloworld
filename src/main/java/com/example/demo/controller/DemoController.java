@@ -9,7 +9,7 @@ public class DemoController {
 
 	@RequestMapping(value="/demo",method=RequestMethod.GET)
 	public String demo() {
-		return "Test demo test5";
+		return "Test demo test6";
 	}
 	
 	@RequestMapping(value="/hello",method=RequestMethod.GET)
